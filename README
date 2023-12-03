@@ -1,0 +1,26 @@
+Library Management System
+This Python script implements a simple Library Management System using SQLite for storing book information. The script provides the following functionality:
+
+Options
+Add new book: Allows the user to input details for a new book. If a book with the same name (case-insensitive) already exists, the script prompts the user whether to overwrite the existing record or keep the same.
+
+List books: Displays a list of all books stored in the database, including their ID, name, book number, and the time they were added.
+
+Delete book: Enables the user to delete a book by providing its ID. If the book with the specified ID exists, it is deleted from the database.
+
+Search book: Lets the user search for books by entering a search term (part of the book name). The script retrieves and displays a list of books that match the search criteria.
+
+Usage
+Upon running the script, the user is prompted to choose an option by entering a corresponding number. The script then executes the selected option based on the provided functionalities.
+
+Database
+The script utilizes SQLite to store book information. The database file is named books.db, and it is automatically created if it doesn't exist.
+
+How to Run
+Ensure you have Python installed on your system.
+Execute the script, and follow the on-screen instructions to perform various operations.
+Requirements
+Python 3.x
+SQLite (bundled with Python)
+Note
+This script is a basic implementation and does not include advanced features such as user authentication or error handling. It is intended for educational purposes and can be extended for more complex library management systems.
